@@ -30,8 +30,7 @@ def add_missing_item(to_config, item, prefix):
     if "history" not in to_config_dict:
         to_config_dict["history"] = {}
     ts = datetime.now().strftime("%d-%b-%Y (%H:%M:%S)")
-    to_config_dict["history"][f"{ts} - {prefix_str(prefix, item[0])}"] = \
-         f"{item[1]}"
+    to_config_dict["history"][f"{ts} - {prefix_str(prefix, item[0])}"] = item[1]
 
 def merge(from_config_items, to_config, prefix):
     if len(from_config_items) == 0:
@@ -69,7 +68,7 @@ to_config_dict = readfile(sys.argv[2],
 merge(list(from_config_dict.items()), to_config_dict, "")
 
 print(json.dumps(to_config_dict,
-            indent=4,
+            indent=2,
             sort_keys=True))
    
 exit(exitstatus)

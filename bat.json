@@ -1,0 +1,16 @@
+{
+    "application" : {
+        "dynholds" : {
+            "email": "bobsyeruncle@abc.def",
+            "allo": {"yaargh": "not much, howboutchoo"},
+            "morestuff": "of course"
+        },
+        "onemo": "time",
+        "dada": {
+            "mama": {
+                "lala": "caca"
+            }
+        }
+    },
+    "comments": "hello"
+}

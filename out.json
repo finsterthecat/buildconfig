@@ -1,0 +1,24 @@
+{
+    "application": {
+        "dada": {
+            "mama": {
+                "lala": "caca"
+            }
+        },
+        "dynholds": {
+            "allo": {
+                "yaargh": "not much, howboutchoo"
+            },
+            "email": "bobsyeruncle@abc.def",
+            "wuddup": "not much, howboutchoo"
+        },
+        "onemo": "blegggh",
+        "yoyo": "yah yah"
+    },
+    "comments": "hello",
+    "history": {
+        "29-Dec-2020 (17:25:06) - application.dada": "{'mama': {'lala': 'caca'}}",
+        "29-Dec-2020 (17:25:06) - application.dynholds.allo": "{'yaargh': 'not much, howboutchoo'}",
+        "29-Dec-2020 (17:25:06) - comments": "hello"
+    }
+}

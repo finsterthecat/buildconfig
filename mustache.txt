@@ -1,0 +1,4 @@
+{{ application.dynholds.email}} is bob's email.
+
+I'm fine. {{application.dynholds.wuddup}}? Also {{application.badkey.isbad}}
+{{ application.dynholds.email.bobsyer}} kaboom!!

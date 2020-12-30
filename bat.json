@@ -1,7 +1,7 @@
 {
     "application" : {
         "dynholds" : {
-            "email": "bobsyeruncle@abc.def",
+            "email": {"xxx": "bad: dict for string"},
             "allo": {"yaargh": "not much, howboutchoo"},
             "morestuff": "of course"
         },
@@ -10,7 +10,8 @@
             "mama": {
                 "lala": "caca"
             }
-        }
+        },
+        "more": "bad: string for dict"
     },
     "comments": "hello"
 }
